@@ -4,7 +4,9 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: hsl(0, 0%, 95%);
+  background-image: url("/styles/a3f3abe546f87d7bceb19ff1f3eea602.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .calculator {
@@ -15,8 +17,8 @@ body {
   overflow: hidden;
 }
 
-.display {
-  width: 100px;
+#display {
+  width: 100%;
   padding: 20px;
   font-size: 5rem;
   text-align: left;
